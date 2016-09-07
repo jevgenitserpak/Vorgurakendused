@@ -35,3 +35,19 @@
 body {
 	margin: 0;
 }
+
+#tabel {
+    border: 1px solid black;
+    width: 100%;
+    
+}
+
+#tabel th,td {
+    padding-left: 15px;
+    text-align: center;
+}
+#toprow {  
+    background-color: rgb(60,60,60);
+    color: white;
+    width: 100%;
+}
