@@ -1,14 +1,11 @@
 .menu {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    min-width: 100px;
-    width: 15%;
-    background-color: #f1f1f1;
-    height: 100%;
-    position: fixed;
+    margin-top: 100px;
+    text-align: center;  
+    background-color: #191919;
     overflow: auto;
     opacity: 0.7;
+    padding: 10px;
 }
 
 .active {
@@ -17,24 +14,57 @@
 }
 
 .textContent {
-	margin-left: 15%;
+	text-align: center;
 	padding: 10px ;
 }
 
+.textContent ul {
+    list-style: none;
+    font-size: 20px;
+}
+
 .menu li a {
-    display: block;
-    color: #000;
-    padding: 10px 25px;
+    color: white;
+    padding: 10px 40px;
     text-decoration: none;
 }
 
+.menu li {
+    display: inline;
+}
+
 .menu li a:hover {
-    background-color: coral;
-    color: white;
+    background-color: #EC9399;
 }
 
 body {
 	margin: 0;
+    background-color: #DFE2DB;
+}
+
+#avalehtBody {
+    background-image: url(indexBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#lingidBody {
+    background-image: url(lingidBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hobidBody {
+    background-image: url(hobidBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tableBody {
+    background-image: url(mouse.png);
+    background-size: cover;
+    background-repeat: repeat;
+    opacity: 0.7;
 }
 
 #plans {
@@ -45,17 +75,18 @@ body {
 }
 
 #tabel {
-    border: 1px solid black;
     width: 100%;
+    background-color: rgb(245,245,245);
     
 }
 
 #tabel th,td {
+    border-bottom: 1px solid black;
     padding-left: 15px;
     text-align: center;
 }
 #toprow {  
-    background-color: rgb(60,60,60);
+    background-color: rgb(0,70,150);
     color: white;
     width: 100%;
 }
