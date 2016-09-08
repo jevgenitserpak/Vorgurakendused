@@ -8,11 +8,12 @@
     height: 100%;
     position: fixed;
     overflow: auto;
+    opacity: 0.7;
 }
 
 .active {
     color: white;
-	background-color: rgb(100,150,255);
+	background-color: crimson;
 }
 
 .textContent {
@@ -28,12 +29,19 @@
 }
 
 .menu li a:hover {
-    background-color: #87CEEB;
+    background-color: coral;
     color: white;
 }
 
 body {
 	margin: 0;
+}
+
+#plans {
+    background-image: url(searock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #tabel {
