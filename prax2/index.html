@@ -7,37 +7,42 @@
 </head>
 <body id="avalehtBody">
     <script src="jscript.js"></script>
+    
     <div id="menu">
         <ul>
-            <li>Game</li>
-            <li>Leaderboard</li>
-            <li>About</li>
+            <li><a href="index.html">Game</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </div>
-    <div id="score">
-        score div
-        <ul id="scoreTitle">
+    
+    <div id="secScore">
+        <ul>
             <li>YOU</li>
-            <li>DRAW</li>
-            <li>PC</li>
+            <li id="playerScore">0</li>
         </ul>
-        <ul id="scoreNr">
-            <li>0</li>
-            <li>0</li>
-            <li>0</li>
+        <ul>
+            <li>DRAW</li>
+            <li id="drawScore">0</li>
+        </ul>
+        <ul>
+            <li>AI</li>
+            <li id="aiScore">0</li>
         </ul>
     </div>
+    
     <div id="container">
         <div id="player">
             left player
             ///////////////
         </div>
         <div id="buttons">
-            <button type="button">Rock</button>
-            <button type="button">Paper</button>
-            <button type="button">Scissors</button>
+            <button type="button" onclick="playrock()">Rock</button>
+            <button type="button" onclick="playpaper()">Paper</button>
+            <button type="button" onclick="playscissors()">Scissors</button>
         </div>
     </div>
+    
     <div id="computer">
         AI player
         ///////////////

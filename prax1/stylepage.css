@@ -23,6 +23,21 @@
     font-size: 20px;
 }
 
+
+.textContent a {
+    text-decoration: none;
+    color:black;
+}
+
+.textContent a:visited {
+    color:forestgreen;
+}
+
+.textContent a:hover {
+    color:deeppink;
+}
+
+
 .menu li a {
     color: white;
     padding: 10px 40px;
@@ -43,9 +58,7 @@ body {
 }
 
 #avalehtBody {
-    background-image: url(indexBg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:floralwhite;
 }
 
 #lingidBody {
