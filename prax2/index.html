@@ -3,49 +3,49 @@
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  <link rel="stylesheet" type="text/css" href="style.css">
+ <script src="jquery-3.1.0.min.js"></script>
  <Title>Prax2</Title>
 </head>
-<body id="avalehtBody">
-    <script src="jscript.js"></script>
-    
-    <div id="menu">
-        <ul>
-            <li><a href="index.html">Game</a></li>
-            <li><a href="leaderboard.html">Leaderboard</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </div>
-    
-    <div id="secScore">
-        <ul>
-            <li>YOU</li>
-            <li id="playerScore">0</li>
-        </ul>
-        <ul>
-            <li>DRAW</li>
-            <li id="drawScore">0</li>
-        </ul>
-        <ul>
-            <li>AI</li>
-            <li id="aiScore">0</li>
-        </ul>
-    </div>
-    
-    <div id="container">
-        <div id="player">
-            left player
+<body>
+    <div id="bodyContainer">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Game</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div id="container">
+            <div id="player">
+                ///////////////
+            </div>
+            <div id="buttons">
+                <button type="button" onclick="playrock()">Rock</button>
+                <button type="button" onclick="playpaper()">Paper</button>
+                <button type="button" onclick="playscissors()">Scissors</button>
+            </div>
+        </div>
+
+        <div id="secScore">
+            <div>
+                <span>YOU</span><br>
+                <span id="playerScore">0</span>
+            </div>
+            <div>
+                <span>DRAW</span><br>
+                <span id="drawScore">0</span>
+            </div>
+            <div>
+                <span>AI</span><br>
+                <span id="aiScore">0</span>
+            </div>
+        </div>
+
+        <div id="computer">
             ///////////////
         </div>
-        <div id="buttons">
-            <button type="button" onclick="playrock()">Rock</button>
-            <button type="button" onclick="playpaper()">Paper</button>
-            <button type="button" onclick="playscissors()">Scissors</button>
-        </div>
     </div>
-    
-    <div id="computer">
-        AI player
-        ///////////////
-    </div>
+    <script src="jscript.js"></script>
 </body>
 </html>

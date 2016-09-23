@@ -1,3 +1,14 @@
+//JS
+document.getElementById('body').style.backgroundColor = 'blue';
+//JQuery
+$('body').css('background-color', 'blue');
+
+var images = [
+    'paper.png',
+    'rock.png',
+    'scissors.png
+];
+
 
 
 //AI
@@ -63,6 +74,12 @@ function aiplay(playerNumber) {
     } else if (playerNumber == 3 && nr == 3) {
         changeScore("draw");
     }
+}
+
+function countDown() {
+    var playerWindow = document.getElementById("player");
+    var computerWindow = document.getElementById("computer");
+    
 }
 
 //PLAYER
