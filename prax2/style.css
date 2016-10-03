@@ -1,11 +1,11 @@
 html {
-    background-color: aliceblue;
+    background-color: #5e9dc8;
 }
 
 #menu {
     opacity: 0.8;
     width: 100%;
-    background-color: rgb(200,200,200);
+    background-color: #d8e9f3;
     text-align: center;
     padding: 1px;
     margin-bottom: 20px; 
@@ -13,6 +13,7 @@ html {
 }
 
 #bodyContainer {
+    margin-top: 200px;
     vertical-align: top;
     width: 1000px;
     margin-left: auto;
@@ -25,12 +26,16 @@ html {
 }
 
 #secScore {
+    border-radius: 25px;
     vertical-align: top;
     display: inline-block;
+    opacity: 0.8;
     width: 390px;
     text-align: center;
-    background-color: rgb(230,230,230);
+    background-color: #0c2c52;
     margin-top: 120px;
+    color: white;
+    font-family: Courier New;
 }
 
 #secScore div {
@@ -47,20 +52,22 @@ html {
 
 
 #player {
+    border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
     height: 300px;
-    background-color: darkseagreen;
+    background-color: #dcf0f7;
 }
 
 #computer {
+    border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
     vertical-align: top;
     display: inline-block;
     width: 300px;
     height: 300px;
-    background-color: darkseagreen;
+    background-color: #dcf0f7;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -75,8 +82,18 @@ html {
 }
 
 #buttons button {
-    margin: 10px;
-    width: 100px;
+    background-color: #0c2c52;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#buttons button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
 }
 
 #container {

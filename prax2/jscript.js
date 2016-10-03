@@ -1,13 +1,13 @@
 //JS
-document.getElementById('body').style.backgroundColor = 'blue';
+//document.getElementById('body').style.backgroundColor = 'blue';
 //JQuery
-$('body').css('background-color', 'blue');
+//$('body').css('background-color', 'blue');
 
-var images = [
-    'paper.png',
-    'rock.png',
-    'scissors.png
-];
+//var images = [
+//    'paper.png',
+//    'rock.png',
+//    'scissors.png
+//];
 
 
 
